@@ -1,6 +1,6 @@
 import { MdMailOutline } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
+
 import "./style/Contact.css"; 
 
 export default function Contact() {
