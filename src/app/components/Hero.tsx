@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import TypeAnimation from 'react-type-animation';
-import "./style/Hero.css"; 
+import * as TypeAnimation from "react-type-animation";
+import "./style/Hero.css";
 
 export default function Hero() {
   return (
@@ -17,20 +17,21 @@ export default function Hero() {
               className="hero-animation"
               aria-label="Type Animation introducing myself"
             >
-              <TypeAnimation
-                sequence={[
-                  "Tarfeeha Hussain",
-                  1000,
-                  "Web Designer",
-                  1000,
-                  "UI/UX Designer",
-                  1000,
-                ]}
-                wrapper="span"
-                speed={50}
-                style={{ fontSize: "2em", display: "inline-block" }}
-                repeat={Infinity}
-              />
+              <TypeAnimation.default
+  sequence={[
+    "Tarfeeha Hussain",
+    1000,
+    "Web Designer",
+    1000,
+    "UI/UX Designer",
+    1000,
+  ]}
+  wrapper="span"
+  speed={50}
+  style={{ fontSize: "2em", display: "inline-block" }}
+  repeat={Infinity}
+/>
+
             </div>
 
             <div className="hero-description">
