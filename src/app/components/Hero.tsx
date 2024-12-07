@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-heading">
-              <span className="hero-greeting">Hello, I'm </span>
+              <span className="hero-greeting">Hello, I&apos;m </span>
             </h1>
 
             <div
@@ -35,10 +35,10 @@ export default function Hero() {
 
             <div className="hero-description">
               <p>
-                I'm a passionate web designer with a focus on creating beautiful
+                I&apos;m a passionate web designer with a focus on creating beautiful
                 and functional user experiences. With experience in UI/UX
                 design, I specialize in crafting responsive, user-friendly
-                websites that make an impact. I’m always eager to learn and take
+                websites that make an impact. I&apos;m always eager to learn and take
                 on new challenges in the ever-evolving world of web design.
               </p>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 import "./style/Projects.css"; 
 
 export default function Project() {
@@ -10,7 +11,7 @@ export default function Project() {
 
       <div id="projects" className="project-container">
         <div className="project-card">
-          <img
+          <Image
             className="project-image"
             src="/images/countdown timer.jpg"
             alt="Countdown Timer"
@@ -21,7 +22,7 @@ export default function Project() {
             <p>
               A countdown timer in Next.js is a dynamic component that displays
               the time remaining until a specific event, updating in real-time
-              using React hooks. It's perfect for adding interactivity to your
+              using React hooks. It&apos;s perfect for adding interactivity to your
               portfolio for events or launches.
             </p>
             <a href="#" className="project-link">
@@ -31,7 +32,7 @@ export default function Project() {
         </div>
 
         <div className="project-card">
-          <img
+          <Image
             className="project-image"
             src="/images/Static.JPG"
             alt="Static Resume Builder"
@@ -51,7 +52,7 @@ export default function Project() {
         </div>
 
         <div className="project-card">
-          <img
+          <Image
             className="project-image"
             src="/images/Dynamic.JPG"
             alt="Dynamic Resume Builder"
@@ -71,7 +72,7 @@ export default function Project() {
         </div>
 
         <div className="project-card">
-          <img
+          <Image
             className="project-image"
             src="/images/Editable.JPG"
             alt="Editable Resume Builder"
